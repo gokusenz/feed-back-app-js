@@ -12,15 +12,15 @@ const MainForm = ({ handleSubmit, handleChange, name, topic }) => (
       </div>
     </div>
     <div className="form-group">
-      <label htmlFor="feedback" className="col-md-3 col-sm-2 control-label">ข้อเสนอแนะ</label>
+      <label htmlFor="feedback" className="col-md-3 col-sm-2 control-label">Feedback</label>
       <div className="col-md-8 col-sm-10" >
         <TextArea name="feedback" row="5" handleChange={handleChange} />
       </div>
     </div>
     <div className="form-group">
       <div className="col-sm-offset-2 col-sm-10">
-        <button type="submit" className="btn btn-success">Submit</button>
-        <a href={`/files/${name}.pdf`} className="btn btn-info btn-list">Download slide</a>
+        <button type="submit" className="btn btn-success">Save</button>
+        <a href={`/files/${name}.pdf`} className="btn btn-info btn-list">Download Slide</a>
       </div>
     </div>
   </form>
