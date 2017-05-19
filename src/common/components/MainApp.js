@@ -6,7 +6,7 @@ const MainApp = ({ name, topic }) => (
   <div className="App">
     <div className="App-header">
       <h2>Get Feedback v1.0.1</h2>
-      <img src="/public/images/feedback-logo.png" className="App-logo" alt="logo" />
+      <img src="/images/feedback-logo.png" className="App-logo" alt="logo" />
     </div>
     <MainForm name={name} topic={topic} />
   </div>
