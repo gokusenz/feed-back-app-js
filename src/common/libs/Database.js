@@ -1,4 +1,5 @@
 import database from './ConfigDB'
+import DateLib from '../libs/Date'
 
 class Database {
   constructor() {
@@ -11,6 +12,7 @@ class Database {
       workshopRef.push().set({
         topic,
         feedback,
+        date: DateLib.getCurDate(),
       })
       return true
     } catch (error) {
