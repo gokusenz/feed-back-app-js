@@ -20,7 +20,7 @@ const Report = ({ name, reportList }) => (
         }
       </div>
     </div>
-    <Link to={`/${name}`} className="btn btn-default btn-list">Back</Link>    
+    <Link to={`/${name}`} className="btn btn-default btn-list">Back</Link>
   </div>
 )
 
