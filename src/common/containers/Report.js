@@ -18,7 +18,7 @@ export class Report extends Component {
   render() {
     return (
       <ReportComponent
-        name={this.props.name}
+        name={this.props.params.name}
         reportList={this.props.report}
       />
     )
