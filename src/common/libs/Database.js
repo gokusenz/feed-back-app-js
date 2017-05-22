@@ -21,8 +21,8 @@ class Database {
     }
   }
 
-  getList(date, team) {
-    return this.db.ref(`/${date}/${team}`).once('value')
+  getList(name) {
+    return this.db.ref(`workshop/${name}`).once('value')
   }
 
 }

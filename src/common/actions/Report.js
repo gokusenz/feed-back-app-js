@@ -6,8 +6,8 @@ const receiveReport = reportList => ({
   reportList,
 })
 
-const getReport = (team, date) => (
-  new Database().getList(date, team)
+const getReport = name => (
+  new Database().getList(name)
   .then(result => receiveReport(result))
 )
 
