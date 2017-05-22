@@ -8,7 +8,7 @@ const MainForm = ({ handleSubmit, handleChange, name, topic }) => (
     <div className="form-group">
       <label htmlFor="topic" className="col-md-3 col-sm-2 control-label"></label>
       <div className="col-md-8 col-sm-10" >
-        <h3>Workshop : { topic }</h3>
+        <h3>หัวข้อ : { topic }</h3>
       </div>
     </div>
     <div className="form-group">
