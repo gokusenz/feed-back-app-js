@@ -1,4 +1,4 @@
-# Daily sync with firebase (ReactJS) with Server side rendering
+# Feedbacl App
 
 ## install packages
 `npm install`
