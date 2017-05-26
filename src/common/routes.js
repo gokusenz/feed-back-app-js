@@ -20,6 +20,10 @@ const routes = (store, history) => (
         path="workshop/js-jest-testing-react-redux" component={() =>
           <MainApp name="js-jest-testing-react-redux" topic="How to test React/Redux with Jest" />}
       />
+      <Route
+        path="workshop/golang-for-beginner" component={() =>
+          <MainApp name="golang-for-beginner" topic="Golang for Beginner" />}
+      />
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
