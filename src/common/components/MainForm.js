@@ -20,7 +20,7 @@ const MainForm = ({ handleSubmit, handleChange, name, topic }) => (
     <div className="form-group">
       <div className="col-sm-offset-2 col-sm-10">
         <button type="submit" className="btn btn-success">Save</button>
-        <a href={`/files/${name}.pdf`} className="btn btn-info btn-list">Download Slide</a>
+        <a href={`/files/${name}.pdf`} className="btn btn-info btn-list hidden">Download Slide</a>
       </div>
     </div>
   </form>
