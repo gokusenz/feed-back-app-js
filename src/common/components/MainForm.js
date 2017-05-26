@@ -12,14 +12,14 @@ const MainForm = ({ handleSubmit, handleChange, name, topic }) => (
       </div>
     </div>
     <div className="form-group">
-      <label htmlFor="level" className="col-md-3 col-sm-2 control-label">ระดับความพึงพอใจ</label>
-      <label htmlFor="level" className="radio-inline col-md-2">
+      <label htmlFor="level" className="col-md-3 col-sm-10 control-label">ระดับความพึงพอใจ</label>
+      <label htmlFor="level" className="radio-inline col-md-2 col-xs-12">
         <input type="radio" name="level" id="inlineRadio1" value="ควรปรับปรุง" /> ควรปรับปรุง
       </label>
-      <label htmlFor="level" className="radio-inline col-md-2">
+      <label htmlFor="level" className="radio-inline col-md-2 col-xs-12">
         <input type="radio" name="level" id="inlineRadio2" value="ดี" /> ดี
       </label>
-      <label htmlFor="level" className="radio-inline col-md-2">
+      <label htmlFor="level" className="radio-inline col-md-2 col-xs-12">
         <input type="radio" name="level" id="inlineRadio3" value="ดีมาก" /> ดีมาก
       </label>
     </div>
