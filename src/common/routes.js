@@ -16,6 +16,10 @@ const routes = (store, history) => (
         path="workshop/js-async-await" component={() =>
           <MainApp name="js-async-await" topic="How to use Async/await (ES2017)" />}
       />
+      <Route
+        path="workshop/js-jest-testing" component={() =>
+          <MainApp name="js-jest-testing" topic="How to test with Jest(Testing Framework)" />}
+      />
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
