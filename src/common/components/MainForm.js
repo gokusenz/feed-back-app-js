@@ -12,7 +12,19 @@ const MainForm = ({ handleSubmit, handleChange, name, topic }) => (
       </div>
     </div>
     <div className="form-group">
-      <label htmlFor="feedback" className="col-md-3 col-sm-2 control-label">Feedback</label>
+      <label htmlFor="level" className="col-md-3 col-sm-2 control-label">ระดับความพึงพอใจ</label>
+      <label htmlFor="level" className="radio-inline col-md-2">
+        <input type="radio" name="level" id="inlineRadio1" value="ควรปรับปรุง" /> ควรปรับปรุง
+      </label>
+      <label htmlFor="level" className="radio-inline col-md-2">
+        <input type="radio" name="level" id="inlineRadio2" value="ดี" /> ดี
+      </label>
+      <label htmlFor="level" className="radio-inline col-md-2">
+        <input type="radio" name="level" id="inlineRadio3" value="ดีมาก" /> ดีมาก
+      </label>
+    </div>
+    <div className="form-group">
+      <label htmlFor="feedback" className="col-md-3 col-sm-2 control-label">ข้อเสนอแนะ</label>
       <div className="col-md-8 col-sm-10" >
         <TextArea name="feedback" row="5" handleChange={handleChange} />
       </div>

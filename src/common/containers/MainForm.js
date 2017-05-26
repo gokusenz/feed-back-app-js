@@ -31,6 +31,7 @@ export class MainForm extends Component {
       this.props.name,
       e.target.topic.value,
       e.target.feedback.value,
+      e.target.level.value,
     )
     if (result) {
       alert('บันทึกข้อมูลเรียบร้อย')

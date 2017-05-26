@@ -17,8 +17,8 @@ const routes = (store, history) => (
           <MainApp name="js-async-await" topic="How to use Async/await (ES2017)" />}
       />
       <Route
-        path="workshop/js-jest-testing" component={() =>
-          <MainApp name="js-jest-testing" topic="How to test with Jest(Testing Framework)" />}
+        path="workshop/js-jest-testing-react-redux" component={() =>
+          <MainApp name="js-jest-testing-react-redux" topic="How to test React/Redux with Jest(Testing Framework)" />}
       />
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
