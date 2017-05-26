@@ -18,7 +18,7 @@ const routes = (store, history) => (
       />
       <Route
         path="workshop/js-jest-testing-react-redux" component={() =>
-          <MainApp name="js-jest-testing-react-redux" topic="How to test React/Redux with Jest(Testing Framework)" />}
+          <MainApp name="js-jest-testing-react-redux" topic="How to test React/Redux with Jest" />}
       />
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />

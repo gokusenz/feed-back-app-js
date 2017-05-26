@@ -6,7 +6,8 @@ const ReportItem = (props) => {
   } = props
   return (
     <div className="text-left">
-      <h4>{item.feedback}</h4>
+      <h4>ระดับความพึงพอใจ : {item.level}</h4>
+      <h4>ข้อเสนอแนะ : {item.feedback}</h4>
       <br />
     </div>
   )
