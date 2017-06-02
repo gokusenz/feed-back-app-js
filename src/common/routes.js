@@ -24,6 +24,10 @@ const routes = (store, history) => (
         path="workshop/golang-for-beginner" component={() =>
           <MainApp name="golang-for-beginner" topic="Golang for Beginner" />}
       />
+      <Route
+        path="workshop/introduction-firebase" component={() =>
+          <MainApp name="introduction-firebase" topic="Introduction Firebase" />}
+      />
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
