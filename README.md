@@ -1,4 +1,4 @@
-# Feedbacl App
+# Feedback App
 
 ## install packages
 `npm install`
