@@ -28,6 +28,25 @@ const routes = (store, history) => (
         path="workshop/introduction-firebase" component={() =>
           <MainApp name="introduction-firebase" topic="Introduction Firebase" />}
       />
+
+      <Route
+        path="workshop/optimize-react-production" component={() =>
+          <MainApp name="optimize-react-production" topic="Optimize react on production" />}
+      />
+
+      <Route
+        path="workshop/feature-toggle-nodejs" component={() =>
+          <MainApp name="feature-toggle-nodejs" topic="Feature Toggle NodeJS" />}
+      />
+
+      <Route
+        path="workshop/build-service-api-graphql" component={() =>
+          <MainApp
+            name="build-service-api-graphql"
+            topic="How to build Service API with GraphQL"
+          />}
+      />
+
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
