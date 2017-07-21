@@ -55,6 +55,14 @@ const routes = (store, history) => (
           />}
       />
 
+      <Route
+        path="workshop/text-classification-machine-learning" component={() =>
+          <MainApp
+            name="text-classification-machine-learning"
+            topic="Text Classification by Machine Learning"
+          />}
+      />
+
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
