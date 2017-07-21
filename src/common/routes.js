@@ -47,6 +47,14 @@ const routes = (store, history) => (
           />}
       />
 
+      <Route
+        path="workshop/simple-server-side-cache-nodejs" component={() =>
+          <MainApp
+            name="simple-server-side-cache-nodejs"
+            topic="Simple server side cache for Express.js with Node.js"
+          />}
+      />
+
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
