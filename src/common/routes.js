@@ -63,6 +63,14 @@ const routes = (store, history) => (
           />}
       />
 
+      <Route
+        path="workshop/devops-with-gitLab-pipeline" component={() =>
+          <MainApp
+            name="workshop/devops-with-gitLab-pipeline"
+            topic="DevOps with GitLab Pipeline"
+          />}
+      />
+
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
