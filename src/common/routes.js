@@ -71,6 +71,14 @@ const routes = (store, history) => (
           />}
       />
 
+      <Route
+        path="workshop/react-apollo-workshop" component={() =>
+          <MainApp
+            name="workshop/react-apollo-workshop"
+            topic="React Apollo Workshop"
+          />}
+      />
+
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
