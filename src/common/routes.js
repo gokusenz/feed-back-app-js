@@ -72,7 +72,7 @@ const routes = (store, history) => (
       />
 
       <Route
-        path="workshop/react-apollo-workshop" component={() =>
+        path="workshop/react-apollo-client-workshop" component={() =>
           <MainApp
             name="workshop/react-apollo-workshop"
             topic="React Apollo Workshop"
