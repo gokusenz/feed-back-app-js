@@ -79,6 +79,14 @@ const routes = (store, history) => (
           />}
       />
 
+      <Route
+        path="workshop/golang-http-testing" component={() =>
+          <MainApp
+            name="workshop/golang-http-testing"
+            topic="Golang HTTP Testing"
+          />}
+      />
+
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
