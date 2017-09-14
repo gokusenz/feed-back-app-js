@@ -80,11 +80,20 @@ const routes = (store, history) => (
       />
 
       <Route
-        path="workshop/golang-http-testing" component={() =>
+        path="workshop/concurrency-javascript" component={() =>
           <MainApp
-            name="workshop/golang-http-testing"
-            topic="Golang HTTP Testing"
+            name="workshop/concurrency-javascript"
+            topic="Concurrency in Javascript (Asynchronous & Event Loop)"
           />}
+      />
+
+      <Route
+        path="workshop/testing-pyramid" component={() =>
+          <MainApp
+            name="workshop/testing-pyramid"
+            topic="The Testing Pyramid "
+          />
+        }
       />
 
       <Route path="report/:name" component={ReportContainer} />
