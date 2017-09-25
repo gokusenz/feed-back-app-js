@@ -96,6 +96,15 @@ const routes = (store, history) => (
         }
       />
 
+      <Route
+        path="workshop/ui-testing-headless" component={() =>
+          <MainApp
+            name="workshop/ui-testing-headless"
+            topic="Chromeless  - ลองเขียน UI Test ด้วย Javascript"
+          />
+        }
+      />
+
       <Route path="report/:name" component={ReportContainer} />
       <Route path="404" component={PageNotFound} />
       <Redirect from="*" to="/404" />
